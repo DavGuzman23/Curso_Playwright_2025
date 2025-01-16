@@ -28,3 +28,5 @@ npx playwright codegen
     Auto generate tests with Codegen.
 
 Para ejecutar solo un archivo de test debemos lanzar en consola el comando: npx playwright test nombreCarpeta/nombreArchivo
+
+Para abrir el codegen y grabar el test y que genere el codigo automaticaticamente lanzar el comando npx playwright codegen
