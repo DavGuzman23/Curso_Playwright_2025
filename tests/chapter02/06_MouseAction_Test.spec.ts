@@ -16,7 +16,7 @@ test.afterAll(async() => {
     await context.close()
 })
 
-test("Handling Iframes, Drag and Drop element in playwright", async ( ) => {
+test("Mouse actions in playwright", async ( ) => {
 
     await page.goto("https://www.google.com/search?q=playwright+by+testers+talk");
     await page.getByRole('button', { name: 'Aceptar todo' }).click()
@@ -35,7 +35,7 @@ test("Handling Iframes, Drag and Drop element in playwright", async ( ) => {
 
     // Double click
     // await page.getByLabel('Search by voice').dblclick();
-    
+
     //await page.close()
  
 });
